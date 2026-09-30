@@ -1,7 +1,7 @@
 # Bagiee Bags — Prototype Storefront
 
 <p align="center">
-  <img src="./assets/logo/logo_bagiee_bags.png" alt="Logo Bagiee Bags" width="220">
+  <img src="./assets/logo/logo_rb_bagiee.bags.png" alt="Logo Bagiee Bags" width="220">
 </p>
 
 <p align="center">
@@ -49,7 +49,7 @@ Pendekatan visual ini digunakan pada navigasi, hero section, product cards, butt
 
 ## 🛍️ Product Preview
 
-|                                  Everyday Tote                                  |                                  Mini Loop                                  |                                  Campus Carry                                  |                                  Pumpkin Pouch                                  |
+|                               What's in Our Charm                               |                                   Lipiee                                    |                                     Wiggie                                     |                                     Bloomie                                     |
 | :-----------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
 | <img src="./assets/products/produk%20(1).jpeg" alt="Everyday Tote" width="160"> | <img src="./assets/products/produk%20(2).jpeg" alt="Mini Loop" width="160"> | <img src="./assets/products/produk%20(3).jpeg" alt="Campus Carry" width="160"> | <img src="./assets/products/produk%20(4).jpeg" alt="Pumpkin Pouch" width="160"> |
 
