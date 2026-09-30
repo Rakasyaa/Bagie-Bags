@@ -8,6 +8,102 @@
   --mono: "DM Mono", monospace;
 }
 
+/* Dummy pages: cart and account */
+.utility-page {
+  min-height: calc(100vh - 83px);
+  background: var(--surface);
+}
+
+.utility-heading {
+  padding: 92px 12% 78px;
+  background: var(--lime);
+}
+
+.utility-heading h1 {
+  margin: 0;
+  font-size: clamp(50px, 6vw, 82px);
+  line-height: 0.93;
+  letter-spacing: -0.075em;
+}
+
+.utility-heading h1 em {
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+
+.empty-state,
+.account-placeholder {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 105px 8%;
+  text-align: center;
+}
+
+.empty-state > img,
+.account-icon img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.empty-state h2,
+.account-placeholder h2 {
+  margin: 25px 0 12px;
+  font-size: clamp(27px, 3vw, 38px);
+  letter-spacing: -0.055em;
+}
+
+.empty-state p,
+.account-placeholder p {
+  max-width: 390px;
+  margin: 0 auto 30px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.account-icon {
+  display: grid;
+  width: 86px;
+  height: 86px;
+  margin: 0 auto;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--lime);
+}
+
+.account-icon img {
+  width: 34px;
+  height: 34px;
+}
+
+.account-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.outline-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 20px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card-link.active-icon {
+  border-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .utility-page { min-height: calc(100vh - 66px); }
+  .utility-heading { padding: 70px 8%; }
+  .empty-state, .account-placeholder { padding: 75px 8%; }
+}
+
 /* Scrollbar tipis bernuansa putih-abu */
 html {
   scrollbar-width: thin;
@@ -365,6 +461,17 @@ footer {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr;
   gap: 30px;
+}
+.footer-wa-link {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.footer-wa-icon {
+  width: 25px;
+  height: auto;
+  margin-right: 6px;
 }
 footer .logo span {
   color: var(--lime);
